@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 4</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"> 
+ </head>
+<body>
+<h1>The Form</h1>
+
+<form action="http://httpbin.org/post" method="post">
+<fieldset>
+     <legend>Personal data</legend>
+<table border="0">
+<tr>
+	<td>First Name</td>            
+	<td><input type="text" name="firstname"></td>
+</tr>
+<tr>
+    <td>Middle name</td>   
+	<td><input type="text" name="middlename"></td>
+</tr>
+<tr>
+	<td>Surname name</td>  
+	<td><input type="text" name="surname"></td>
+</tr>
+<tr>
+	<td rowspan="2">Sex</td> 
+	<td><input type="radio" name="sex" value="male" checked>Male</td>
+</tr>
+<tr>
+    <td><input type="radio" name="sex" value="female">Female</td>
+</tr>
+<tr>
+	<td>Age</td> 
+	<td><input type="number" min="18" max="101"></td>
+</tr>
+<tr>
+	<td>Country</td> 
+	<td><input type="text" name="country"></td> 
+</tr>
+<tr>
+	<td>City</td> 
+	<td><input type="radio" name="city" value="Ryazan" checked>Ryazan
+    <input type="radio" name="city" value="Moscow">Moscow</td>
+</tr>
+<tr>
+	<td>Photography</td> 
+	<td><input type="file" name="img"></td>
+</tr>
+</table>
+	
+	
+<hr>
+<table>
+<tr>
+	<td width="60px">Title</td> 
+	<td><select name="prof" multiple size="8">
+    <optgroup label="Technologies">
+     <option value="Web Master">Web Master</option>
+     <option value="Database Administrator">Database Administrator</option>
+     <option value="Computer-aided design">Computer-aided design</option>
+    </optgroup>
+    <optgroup label="Finance">
+     <option value="Economic Planning">Economic Planning</option>
+     <option value="Management accounting">Management accounting</option>
+     <option value="Budgeting and planning">Budgeting and planning</option>
+    </optgroup>
+    </select></td>
+</tr>
+</table>
+	Salary <input type="range" min="0" max="100000" step="1000" value="50">
+	<br><br>
+	<textarea name="message" rows="10" cols="60" placeholder="Tell us about yourself..."></textarea>
+</fieldset>
+<fieldset>
+     <legend>Contact Information</legend>
+<table>
+<tr>
+     <td>Site</td> 
+	 <td><input type="text" name="site"></td>
+</tr>
+<tr>     
+	 <td>E-mail</td> 
+	 <td><input type="email" name="email"></td>
+</tr>
+<tr>
+     <td>Phone</td> 
+	 <td><input type="tel" name="phone"></td>
+</tr>
+</table>
+</fieldset><br>
+	Password <input required type="password" name="password">
+<br><br><hr>
+<input type="submit" value="Отправить"> <input type="reset" value="Сбросить">
+</form>
+
+</body>
+</html>
