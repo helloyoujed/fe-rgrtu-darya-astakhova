@@ -1,0 +1,371 @@
+﻿.highlight {
+    width: 100px;
+    height: 100px;
+    background-color: #0099ff;
+	position: absolute;
+	top: 100px;
+	left:530px;
+	text-align:center;
+	line-height: 100px;
+	color:white;
+	font-family:sans-serif;
+	-ms-transform: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.highlight:hover {
+	background: none;
+	color: #0099ff;
+}
+
+
+
+.fade {
+    width: 100px;
+    height: 100px;
+    background-color: #0099ff;
+	position: absolute;
+	top: 100px;
+	left: 650px;
+	text-align:center;
+	line-height: 100px;
+	color:white;
+	font-family:sans-serif;
+	-ms-transform: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.fade:hover {
+  opacity: 0;
+}
+
+
+.boom {
+    width: 100px;
+    height: 100px;
+    background-color: #0099ff;
+	position: absolute;
+	top: 100px;
+	left: 770px;
+	text-align:center;
+	line-height: 100px;
+	color:white;
+	font-family:sans-serif;
+	-ms-transform: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.boom:hover {
+	opacity: 0;
+	transform: scale(2);
+}
+
+.focus {
+    width: 100px;
+    height: 100px;
+    background-color: #0099ff;
+	position: absolute;
+	top: 220px;
+	left: 530px;
+	text-align:center;
+	line-height: 100px;
+	color:white;
+	font-family:sans-serif;
+	-ms-transform: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.focus:hover {
+	transform: scale(0.5);
+	font-size:30px;
+}
+
+
+.rotate {
+    width: 100px;
+    height: 100px;
+    background-color: #0099ff;
+	position: absolute;
+	top: 220px;
+	left: 650px;
+	text-align:center;
+	line-height: 100px;
+	color:white;
+	font-family:sans-serif;
+	-ms-transform: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.rotate:hover { 
+    transform: rotate(90deg);
+}
+
+
+.knit {
+    width: 100px;
+    height: 100px;
+    background-color: #0099ff;
+	position: absolute;
+	top: 220px;
+	left: 770px;
+	text-align:center;
+	line-height: 100px;
+	color:white;
+	font-family:sans-serif;
+	-ms-transform: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.knit:hover {
+	transform: translate(0,-20px) scaleX(1) scaleY(0);
+}
+
+.shrink {
+    width: 100px;
+    height: 100px;
+    background-color: #0099ff;
+	position: absolute;
+	top: 340px;
+	left: 530px;
+	text-align:center;
+	line-height: 100px;
+	color:white;
+	font-family:sans-serif;
+	-ms-transform: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.shrink:hover {
+	transform: scaleX(0) scaleY(0);
+}
+
+.squeeze {
+    width: 100px;
+    height: 100px;
+    background-color: #0099ff;
+	position: absolute;
+	top: 340px;
+	left: 650px;
+	text-align:center;
+	line-height: 100px;
+	color:white;
+	font-family:sans-serif;
+	-ms-transform: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.squeeze:hover {
+	transform:scaleX(2) scaleY(0) translateY(-50%);
+	border: 1px solid white;
+}
+
+.deform {
+    width: 100px;
+    height: 100px;
+    background-color: #0099ff;
+	position: absolute;
+	top: 340px;
+	left: 770px;
+	text-align:center;
+	line-height: 100px;
+	color:white;
+	font-family:sans-serif;
+	-ms-transform: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.deform:hover {
+	transform:skew(45deg,45deg);
+	border: 1px solid white;
+}
+
+
+.image {
+	background: url(img/1.jpg);
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	box-shadow: inset 0px 0px 20px 20px rgba(0,0,0,0.8);
+}
+
+.text1 {
+	background-color: #009999;
+	color: white;
+	margin: 20px;
+	padding:20px;
+	width: 400px;
+}
+
+.text2 {
+	background-color: #c2d6d6;
+	margin: 20px;
+	padding:20px;
+	padding-right: 100px;
+	width: 320px;
+}
+
+a {
+	font-size: 2rem;
+    text-decoration: none; 
+	padding-right: 10px;
+	margin-left: 10px;
+	color: #0000FF;
+	-ms-transform: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+
+a:nth-of-type(-n+2){
+	border-right: 2px solid red;
+}
+
+a:hover  {
+	border-bottom: 3px solid #0000FF;
+	border-right: 2px solid white;
+	padding-left: -50px;
+}
+
+.circle {
+	height: 200px;
+	width: 300px;
+	border: 2px solid gray;
+	background: -o-radial-gradient(35% 50%, #0ba7e2 10%, #0ba7e2 50%, white 52%, white);
+	background: -moz-radial-gradient(35% 50%, #0ba7e2 10%, #0ba7e2 50%, white 52%, white);
+    background: -webkit-radial-gradient(35% 50%, #0ba7e2 10%, #0ba7e2 50%, white 52%, white);
+    background: -ms-radial-gradient(35% 50%, #0ba7e2 10%, #0ba7e2 50%, white 52%, white);
+	background: radial-gradient(35% 50%, #0ba7e2 10%, #0ba7e2 50%, white 52%, white);
+}
+
+
+.button {
+	width:100px;
+	margin: 10px;
+	padding: 8px;
+	background: linear-gradient(to top, #79a6d2, #4080bf, #ccb3ff);
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-family:sans-serif;
+	border: 7px double white;
+	border-radius: 15px;
+	-ms-transform: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.button:hover {
+	box-shadow: 0 0 15px rgba(0, 153, 204,0.8);
+}
+
+.normal {
+	background: #b3cce6;
+	padding: 20px;
+}
+
+.mobile {
+	background: #b3cce6;
+	padding: 30px;
+	width: 500px;
+}
+
+.loader {
+	border: 16px solid #e6e6e6;
+	border-radius: 50%;
+	border-top: 16px solid #bfbfbf;
+	border-right: 16px solid #bfbfbf;
+	border-bottom: 16px solid #bfbfbf;
+	width: 100px;
+	height: 100px;
+	animation: load 1s linear infinite;
+}
+ 
+@keyframes load {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+.block1 {
+	width: 50px;
+	height: 50px;
+	background: #bfbfbf;
+	
+}
+
+.block2 {
+    width: 50px;
+    height: 50px;
+    background: #bfbfbf;
+	margin-left: 200px;
+	margin-top:-50px;
+}
+
+.ball {
+	background: #00e6e6;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	margin-left: 50px;
+	margin-top:-40px;
+	animation: ball 2s linear infinite;
+}
+
+@keyframes ball {
+	0% { margin-left: 50px;}
+	50% { margin-left: 170px;}
+	100%{ margin-left: 50px;}
+}
+
+.circle2 {
+	background: linear-gradient(to top left, white, #00e6e6);
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin: 50px;
+	margin-left:200px;
+	animation: circle2 10s infinite;
+}
+
+	
+@keyframes circle2 {
+	0% {
+		background: linear-gradient(to top right, white, #00e6e6);
+		}
+	15% { 
+		border-radius: 0px;
+		background: linear-gradient(to top right, white, #00e6e6);
+	}
+	35% { 
+		transform: scale(1) skew(0deg);
+		background: linear-gradient(to top right, white, #ff944d);
+		border-radius: 0px;
+	}
+	50% {
+		transform: scale(1.2) skew(15deg);
+		background: linear-gradient(to top right, white, #ff944d);
+		border-radius: 0px;
+	}
+	65% {
+		transform: rotate(90deg);
+		background: linear-gradient(to top right, white, #ff944d);
+		border-radius: 0px;
+	}
+	80% {
+		background: linear-gradient(to top right, white, #00e6e6);
+		border-radius: 0px;
+		transform: rotate(90deg);
+	}
+	100% {
+		border-radius: 50%;
+		background: linear-gradient(to top right, white, #00e6e6);
+	}
+}	
