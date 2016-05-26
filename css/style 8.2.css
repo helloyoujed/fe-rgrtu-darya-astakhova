@@ -1,0 +1,30 @@
+﻿.arrow-box {
+	width: 300px;
+	border: 5px solid #c6d9ec; 
+	padding: 10px;
+	background: #79a6d2;
+	color: white;
+	font-family: sans-serif;
+    position: relative;
+	margin-top: 60px;
+	z-index: 1;
+}
+
+.arrow-box::before {
+    content: '';
+    position: absolute;
+    background: #79a6d2;
+	border-top: 5px solid #c6d9ec;
+	border-left: 5px solid #c6d9ec;
+    left: 140px; top: -25px;
+    width: 40px; height: 40px;
+    z-index: -1;
+    transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg);
+}
+
+
+
+
+ 
+ 

@@ -1,0 +1,110 @@
+﻿h3 {
+	display: inline-block;
+	width: 100%;
+}
+
+
+.float{
+	float: left;
+	width: 370px;
+	height: 400px;
+}
+
+.i-b{
+	display: inline-block;
+	width: 370px;
+	height: 400px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	width: 100%:;
+}
+
+.flex {
+	width: 370px;
+	height: 400px;
+}
+
+.flex input[value="Details"] {
+	position: relative;
+	top: 5%;
+	left: -70%;
+}
+
+.flex input[value="Live Demo"] {
+	position: relative;
+	top: 0%;
+	left: -45%%;
+}
+
+
+img {
+	width: 220px;
+	height: 250px;
+	margin: 10px;
+	margin-bottom: 40px;
+	padding: 15px;
+	border: 3px solid #bfbfbf;
+}
+
+input[value="Details"] {
+	position: relative;
+	top: 5%;
+	left: -70%;
+}
+
+input[value="Live Demo"] {
+	position: relative;
+	top: 0%;
+	left: 45%;
+}
+
+img {
+	width: 220px;
+	height: 250px;
+	margin: 10px;
+	padding: 15px;
+	border: 3px solid #bfbfbf;
+}
+
+/*
+.i-b{
+	display: inline-block;
+	width: 370px;
+	height: 400px;
+}
+
+.i-b img {
+	width: 220px;
+	height: 250px;
+	margin: 10px;
+	margin-bottom: 40px;
+	padding: 15px;
+	border: 3px solid #bfbfbf;
+}
+
+.i-b input[value="Details"] {
+	position: relative;
+	top: 5%;
+	left: -70%;
+}
+
+.i-b input[value="Live Demo"] {
+	position: relative;
+	top: 0%;
+	left: 45%;
+}
+
+.i-b img {
+	width: 220px;
+	height: 250px;
+	margin: 10px;
+	padding: 15px;
+	border: 3px solid #bfbfbf;
+}*/
+

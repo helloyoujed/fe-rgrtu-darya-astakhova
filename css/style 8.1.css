@@ -1,0 +1,35 @@
+﻿.block {
+	width: 30%;
+	border: 1px solid #00cccc;
+	border-radius: 10px;
+	padding: 10px;
+	background: #b3fff0;
+	font-family: sans-serif;
+
+}
+
+.blockborder {
+	border: 1px solid #00cccc;
+	background: white;
+	color: #009999;
+}
+
+.blockheader {
+	background: #ffcc00;
+	color: black;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.blocktext {
+	padding: 10px;
+}
+
+.blockarrow{
+	width: 0;
+	height: 0;
+	border: 15px solid transparent; 
+	border-top-color: #ffcc00;  
+	border-bottom: 0;
+	margin-left: 10px;
+}

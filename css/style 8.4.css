@@ -1,0 +1,43 @@
+﻿ul {
+	position: absolute;
+	top: -10em;
+	width: 120px;
+	height: 195px;
+	margin: 0;
+	padding: 0;
+	background: #00ace6;
+	color: white;
+	list-style-type: none;
+	text-align: center;
+	border-radius: 0 0 15px 15px;
+}
+
+li {
+	padding: 7px 5px 7px 5px;
+}
+
+li:not(.top):hover {
+	background: #0099cc;
+}
+
+.top {
+	border-top: 1px solid gray;
+	border-radius: 0 0 15px 15px;
+}
+
+.top:hover {
+	box-shadow: 0 0 15px rgba(0, 191, 255, 0.6);
+}
+
+input:checked ~ ul {
+	animation: menu 1s 1 forwards;
+}
+
+@keyframes menu {
+	0% {top: -10em;}
+	100% {top: 0;}
+}
+
+input {
+	display: none;
+}
