@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script src="script.js"></script>
+	<title>Task 14</title>
+</head>
+
+
+<body>
+
+	<pre>
+		JavaScript Closure, Scope; ClassWork
+		При написании кода используйте значащие имена переменных, избегайте вложенных условий и сложных циклов, вместо этого напишите дополнительную функцию.
+		Все задания представляют собой единый модуль, который экспортирует только функции, которые делают поставленную задачу и еще один дополнительные метод «test» 
+		который запускает тесты каждого задания.
+		1.	Write a JavaScript function to check whether an `input` is an array or not. Go to the editor
+		Test Data :
+		console.log(is_array(qwe)); 
+		console.log(is_array([1, 2, 4, 0]));
+		false
+		true
+		2.	Write a JavaScript function todeep clone an array using recursion
+		3.	Write a JavaScript function to find the most frequent item of an array.
+		4.	Write a JavaScript program to remove duplicate strings from a string array (ignore case sensitivity)
+		5.	Write a JavaScript program to shuffle an array
+		6.	Write a JavaScript function to sort the following array of objects by title value using ‘sort’ method
+		var library = [ 
+		{ author: 'Bill Gates', title: 'The Road Ahead', libraryID: 1254},
+		{ author: 'Steve Jobs', title: 'Walter Isaacson', libraryID: 4264},
+		{ author: 'Suzanne Collins', title: 'Mockingjay: The Final Book of The Hunger Games', libraryID: 3245}
+		];
+		7.	Write a JavaScript function to merge two arrays and removes all duplicates elements
+		8.	Write a JavaScript function to remove a specific element from an array
+		9.	Write a JavaScript function to get a random item from an array
+		10.	Write a JavaScript function to move an array element from one position to another
+		11.	Write a JavaScript function to split a string and convert it into an array of words
+		12.	Write a JavaScript function to capitalize the first letter of a string
+		13.	Write a JavaScript function to convert a string into camel case
+		Test Data :
+		console.log(camelize("Java Script")); 
+		console.log(camelize("java-script")); 
+		console.log(camelize("Java Script Exercises"));
+		"JavaScript" 
+		"javaScript" 
+		"JavaScriptExercises"
+		14.	Write a JavaScript function that accepts two arguments: array and function. 
+		The function iterate the entire array and calls the given function with the current array element.
+		function iterateArray(array, callback){
+		//... Your code
+		}
+
+		var result = 0;
+		iterateArray([2,4,1,2,4], function(el){
+		result += el;
+		});
+		//Now result is the sum of all array elements
+		15.	Write a JavaScript program to get the length of an JavaScript object
+		Модуль используется следующим образом:
+		varworker = arrayHelpers([1, 323, 45, 656, 1, 1]);
+		var frequent = worker.theMostFrequent(); // 1
+		var merged = worker.mergeAndRemoveDuplicates([1, 2]); // 1, 323, 45, 656, 2 
+		var random = worker.getRandom(); // Some random value
+</pre>
+</body>
+</html>
